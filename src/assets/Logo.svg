@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <!-- Ícone da cloche -->
+  <g fill="none" stroke="#eaf0f8" stroke-width="8" stroke-linecap="round">
+    <path d="M470 150 C520 50, 680 50, 730 150" />
+    <line x1="440" y1="170" x2="760" y2="170" />
+  </g>
+
+  <circle cx="600" cy="85" r="14" fill="#eaf0f8"/>
+
+  <!-- Nome -->
+  <text
+    x="600"
+    y="300"
+    text-anchor="middle"
+    font-size="110"
+    font-family="Georgia, 'Times New Roman', serif"
+    fill="#eaf0f8">
+    BuffetHouse
+  </text>
+</svg>
