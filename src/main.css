@@ -8,12 +8,38 @@ body {
   background-color: #292F36;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "DM Serif Display", serif;
   font-size: inherit;
   padding: 0;
   margin: 0;
   letter-spacing: 2.5px;
+
+}
+
+/* COLORS */
+:root {
+    --primary: #D4AF37;    
+    --secondary: #252D39;  
+    --text: #F8F9FA;       
+    --text-muted: #C7CCD4; 
+}
+
+.grey-1-color {
+  color: var(--text-muted);
+}
+
+.primary-color {
+  color: var(--primary);
+}
+
+.secondary-color {
+  color: var(--secondary);
+}
+
+.text-color {
+  color: var(--text);
 }
 
 /* GRID */

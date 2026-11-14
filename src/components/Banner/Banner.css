@@ -1,12 +1,47 @@
 .banner {
-    background-image: url('../../assets/Banner.png');
+    position: relative;
+    height: 500px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto 0;
+    border-radius: 37px 37px 0 0;
+
     background-size: cover;
     background-position: center;
-    height: 500px;
-    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    overflow: hidden;
 }
 
-.banner-content {
+/* Camada escura sobre a imagem */
+.banner::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 37px 37px 0 0;
+}
+
+/* Título */
+.title-painel {
+    position: relative;
+    z-index: 1;
+
+    margin-top: 30px;
+
+    font-family: "DM Serif Display", serif;
+    font-size: 72px;
+    font-weight: 400;
+    letter-spacing: 3px;
+
+    color: #F8F4E3;
+
+    text-shadow:
+        0 2px 4px rgba(0, 0, 0, 0.8),
+        0 4px 12px rgba(0, 0, 0, 0.7);
+
     text-align: center;
-    padding: 50px;
 }
